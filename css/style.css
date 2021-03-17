@@ -4,7 +4,7 @@
 
 body {
   background-color: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -12,6 +12,7 @@ a {
 }
 
 .header {
+  width: 90%;
   max-width: 1146px;
   margin: auto;
   padding: 56px 0;
@@ -40,4 +41,71 @@ a {
   font-size: 16px;
   line-height: 20px;
   margin-right: 15px;
+}
+
+.app {
+  background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%),
+    url("../img/cover-image.jpg") no-repeat top right;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.film {
+  width: 90%;
+  height: 100% - 152px;
+  max-width: 1146px;
+  margin: auto;
+  padding: 7% 0;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  opacity: 0.4;
+  color: #e5e5e5;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.tags > * {
+  margin-right: 15px;
+}
+
+.age {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 1px 5px;
+}
+
+.description {
+  max-width: 460px;
+  font-size: 21px;
+  line-height: 140%;
+  margin-bottom: 36px;
+}
+
+.button {
+  padding: 11px 26px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-default {
+  background: #2f2f2f;
+}
+
+.button-primary {
+  background: #ea6e20;
+  margin-right: 15px;
+}
+
+.button-text {
+  margin-left: 10px;
+  vertical-align: text-bottom;
 }
