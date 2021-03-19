@@ -114,6 +114,12 @@ a {
   vertical-align: text-bottom;
 }
 
+.form-input {
+  color: #000000;
+  padding: 11px 17px;
+  cursor: text;
+}
+
 @media (max-width: 1000px) {
   .app {
     background: linear-gradient(
